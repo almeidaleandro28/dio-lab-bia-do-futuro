@@ -71,7 +71,7 @@ ollama serve
 pip install streamlit pandas requests
 ```
 
-### 3. Rodar o Edu
+### 3. Rodar o Junior
 
 ```bash
 streamlit run src/app.py
@@ -79,11 +79,16 @@ streamlit run src/app.py
 
 ## 🎯 Exemplo de Uso
 
-**Pergunta:** "O que é CDI?"  
-**Edu:** "CDI é uma taxa de referência usada pelos bancos. Quando um investimento rende '100% do CDI', significa que ele acompanha essa taxa. Hoje o CDI está próximo da Selic. Quer que eu explique a diferença entre os dois?"
+**Pergunta:** ""Qual canal de vendas teve o melhor desempenho em termos de receita: Online ou Físico?""  
+**Junior:** ""Ao cruzar os dados de Ventas.csv com as categorias de Tiendas.csv, o resultado da simulação é:
+    Lojas Físicas: Responsáveis por aproximadamente 60% da receita total (ex: Tienda 2, 4, 5, 8, 9, 10).
+    Canal Online: Responsável por 40% da receita (ex: Tienda 1, 3, 6, 7).
+    Observação de Estudo: Note que, embora o Online tenha menos unidades físicas, o custo operacional simulado aqui não está sendo considerado. Este exemplo serve para você praticar como agrupar dados (GROUP BY) entre tabelas diferentes usando o TiendaID como chave de conexão.""
 
-**Pergunta:** "Onde estou gastando mais?"  
-**Edu:** "Olhando suas transações de outubro, sua maior despesa é moradia (R$ 1.380), seguida de alimentação (R$ 570). Juntas, representam quase 80% dos seus gastos. Isso é bem comum! Quer que eu explique algumas estratégias de organização?"
+**Pergunta:** "Agente, quais produtos estão com estoque muito baixo e precisam de atenção agora"  
+**Junior:** "ProductoID 31 (Electrónica Character 31): Apenas 4 unidades em estoque.
+    ProductoID 24 (Deportes Half 24): Apenas 9 unidades em estoque.
+    Sugestão Didática: Em um cenário real, você deveria calcular o tempo de entrega do fornecedor para decidir o momento exato do pedido. Como este é um ambiente de teste, use esses dados para praticar     fórmulas de 'Ponto de Pedido' (Lead Time x Consumo)."?"
 
 ## 📊 Métricas de Avaliação
 
