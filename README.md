@@ -2,7 +2,7 @@
 
 > Agente de IA Generativa queajudarno controle de estoque para loja de pequeno porte.
 
-## 💡 O Que é o Edu?
+## 💡 O Que é o Junior?
 Junior analisar os arquivo base e mostrar alguns indicadores de como está o estoque quais produtos estão vendendo muito e dá dicas d3e melhoria na gestão do inventário
 
 **O que o Edu faz:**
