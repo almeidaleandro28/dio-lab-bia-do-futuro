@@ -1,20 +1,23 @@
 # 🎓 Junior - Controlador de Inventário Inteligente
 
-> Agente de IA Generativa queajudarno controle de estoque para loja de pequeno porte.
+> Agente de IA Generativa quea ajudar no entendimento de como funcionar um  controle de estoque para loja de pequeno porte.
 
 ## 💡 O Que é o Junior?
 Junior analisar os arquivo base e mostrar alguns indicadores de como está o estoque quais produtos estão vendendo muito e dá dicas d3e melhoria na gestão do inventário
 
-**O que o Edu faz:**
+**O que o Junjior faz:**
 - ✅ Retorna algums indicadores
 - ✅ Usa dados do inventário da loja para obter resposta
 - ✅ Responde dúvidas sobre gestão de inventário
 - ✅ Analisa padrões de gestão de almoxerifado para estudo
 
 **O que o Edu NÃO faz:**
-- ❌ Não recomenda investimentos específicos
-- ❌ Não acessa dados bancários sensíveis
-- ❌ Não substitui um profissional certificado
+- ❌ O agente não pode se conectar a APIs de e-commerce reais, sistemas de pagamento ou bancos de dados externos vivos
+- ❌ O agente não pode realizar pedidos de compra reais ou emitir notas fiscais. Ele apenas "sugere" ações em formato de texto para fins acadêmicos.
+- ❌ O agente não enviará e-mails ou alertas para fornecedores fictícios.
+- ❌ O agente ignorará impostos, taxas de câmbio, inflação ou custos de logística complexos, mantendo o cálculo simples para facilitar o aprendizado.
+- ❌ O agente opera apenas com as datas presentes nos arquivos CSV fornecidos
+- 
 
 ## 🏗️ Arquitetura
 
