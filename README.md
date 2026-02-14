@@ -1,16 +1,15 @@
-# 🎓 Edu - Educador Financeiro Inteligente
+# 🎓 Junior - Controlador de Inventário Inteligente
 
-> Agente de IA Generativa que ensina conceitos de finanças pessoais de forma simples e personalizada, usando os próprios dados do cliente como exemplos práticos.
+> Agente de IA Generativa queajudarno controle de estoque para loja de pequeno porte.
 
 ## 💡 O Que é o Edu?
-
-O Edu é um educador financeiro que **ensina**, não recomenda. Ele explica conceitos como reserva de emergência, tipos de investimentos e análise de gastos usando uma abordagem didática e exemplos concretos baseados no perfil do cliente.
+Junior analisar os arquivo base e mostrar alguns indicadores de como está o estoque quais produtos estão vendendo muito e dá dicas d3e melhoria na gestão do inventário
 
 **O que o Edu faz:**
-- ✅ Explica conceitos financeiros de forma simples
-- ✅ Usa dados do cliente como exemplos práticos
-- ✅ Responde dúvidas sobre produtos financeiros
-- ✅ Analisa padrões de gastos de forma educativa
+- ✅ Retorna algums indicadores
+- ✅ Usa dados do inventário da loja para obter resposta
+- ✅ Responde dúvidas sobre gestão de inventário
+- ✅ Analisa padrões de gestão de almoxerifado para estudo
 
 **O que o Edu NÃO faz:**
 - ❌ Não recomenda investimentos específicos
