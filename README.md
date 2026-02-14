@@ -39,11 +39,11 @@ flowchart TD
 
 ```
 ├── data/                          # Base de conhecimento
-│   ├── perfil_investidor.json     # Perfil do cliente
-│   ├── transacoes.csv             # Histórico financeiro
-│   ├── historico_atendimento.csv  # Interações anteriores
-│   └── produtos_financeiros.json  # Produtos para ensino
-│
+│   ├── Inventario.csv    # produto e estoque atual
+│   ├── Produtos.csv             # info sobre os produtos; categoria, custo
+│   ├── lojas.csv  # Info sobrea as lojas e canais de vendas
+│   └── vendas.csv  # Pegar informação dos outros arquivo e adicionar preco de vendas
+│ e quantidade vendida
 ├── docs/                          # Documentação completa
 │   ├── 01-documentacao-agente.md  # Caso de uso e persona
 │   ├── 02-base-conhecimento.md    # Estratégia de dados
