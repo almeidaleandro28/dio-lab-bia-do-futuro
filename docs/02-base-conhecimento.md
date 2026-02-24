@@ -11,18 +11,10 @@
 
 | Arquivo | Formato | Para que serve no Edu? |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores, ou seja, dar continuidade ao atendimento de forma mais eficiente. |
-| `perfil_investidor.json` | JSON | Personalizar as explicações sobre as dúvidas e necessidades de aprendizado do cliente. |
-| `produtos_financeiros.json` | JSON | Conhecer os produtos disponíveis para que eles possam ser ensinados ao cliente. |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente e usar essas informações de forma didática. |
-
----
-
-## Adaptações nos Dados
-
-> Você modificou ou expandiu os dados mockados? Descreva aqui.
-
-O produto Fundo Imobiliário (FII) substituiu o Fundo Multimercado, pois pessoalmente me sinto mais confiante em usar apenas produtos financeiros que eu conheço. Assim, poderei validar as respostas do Edu de forma mais assertiva.
+| `data/Inventario.csv` | CSV | quantidade de produto no estoque |
+| `data/Productos.csv` | CSV | informação do produtos. |
+| `data/Tiendas.csv` | CSV | informação da lojas. |
+| `data/Tiendas.csv`| CSV | vendas do produtos. |
 
 ---
 
@@ -35,12 +27,11 @@ Existem duas possibilidades, injetar os dados diretamente no prompt (Ctrl + C, C
 
 ```python
 import pandas as pd
-import json
 
-perfil = json.load(open('./data/perfil_investidor.json'))
-transacoes = pd.read_csv('./data/transacoes.csv')
-historico = pd.read_csv('./data/historico_atendimento.csv')
-produtos = json.load(open('./data/produtos_financeiros.json'))
+inventario = pd.read_csv('./data/Inventario.csv')
+produtos = pd.read_csv('./data/Productos.csv')
+lojas = pd.read_csv('./data/Tiendas.csv')
+vendas = pd.read_csv('./data/Vientas.csv')
 ```
 
 ### Como os dados são usados no prompt?
