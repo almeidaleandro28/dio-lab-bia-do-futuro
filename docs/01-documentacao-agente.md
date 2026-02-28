@@ -1,13 +1,5 @@
 # Documentação do Agente
 
-> [!TIP]
-> **Prompt usado para esta etapa:**
-> 
-> Crie a documentação de um agente chamado "Junior",ajudar a entender como funciona um controle de inventário.
->
-> [cole ou anexe o template `01-documentacao-agente.md` pra contexto]
-
-
 ## Caso de Uso
 
 ### Problema
