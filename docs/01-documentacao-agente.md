@@ -14,14 +14,14 @@ Um agente educativo que explica conceitos financeiros de forma simples, usando o
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-QUEM DESEJAR ESTUDAR SOBRE COONTROLE DE UM INVENTÁRIO
+    QUEM DESEJAR ESTUDAR SOBRE COONTROLE DE UM INVENTÁRIO
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-Junior - Controlador de Inventário INteligente
+>Junior - Controlador de Inventário INteligente
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
