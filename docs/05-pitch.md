@@ -1,50 +1,28 @@
-# Pitch (3 minutos)
-
-> [!TIP]
-> Você pode usar alguns slides pra apoiar no seu Pitch e mostrar sua solução na prática.
-
-## Estrutura do Pitch
-
-| Tempo | Seção | O que falar |
-|-------|-------|-------------|
-| 0:00 - 0:30 | Problema | A dor que você resolve |
-| 0:30 - 1:30 | Solução | Como o Edu resolve |
-| 1:30 - 2:30 | Demo | Mostre funcionando |
-| 2:30 - 3:00 | Diferencial | Por que é inovador |
-
----
+# Pitch
  
-## Roteiro do Edu
+ ## 1. Problema: A dor que você resolve
 
-### 🎯 Problema (30 seg)
-> "62% dos brasileiros não sabem o que é reserva de emergência. Muita gente quer aprender sobre finanças, mas não sabe por onde começar — e tem medo de parecer burro perguntando."
+>Muitos estudantes e pequenos gestores sentem dificuldade em transformar planilhas de dados frios em decisões estratégicas. O excesso de números em arquivos como Ventas.csv ou Inventario.csv pode ser intimidador, e conceitos como "margem de lucro" ou "estoque crítico" muitas vezes parecem teóricos demais. A dor aqui é a falta de clareza e a dificuldade em interpretar métricas essenciais para a saúde de um negócio em tempo real.
 
-### 💡 Solução (60 seg)
-> "O Edu é um educador financeiro que ensina de forma personalizada. Ele usa seus próprios dados para dar exemplos práticos. Não recomenda investimentos — só educa. É como ter um professor particular de finanças disponível 24h."
+## 2. Solução: Como o Junior resolve
 
-### 📱 Demo (60 seg)
-> [Compartilhe a tela e faça 2-3 perguntas ao Edu]
-> - "O que é CDI?"
-> - "Onde estou gastando mais?"
-> - "Me explica o que é Tesouro Selic"
+>O Junior atua como um "professor particular de estoque". Ele não apenas processa os dados, mas os utiliza para educar o usuário. Ele cruza informações de vendas e produtos dinamicamente para explicar fórmulas financeiras e status de inventário de forma simples e direta.
 
-### ✨ Diferencial (30 seg)
-> "Diferente de chatbots genéricos, o Edu usa SEUS dados como exemplo. Isso torna o aprendizado concreto. E o melhor: roda 100% local, sem custo e sem enviar seus dados pra ninguém."
+>Ao invés de apenas gerar um relatório, ele conversa com o usuário, transformando a análise de dados em uma jornada de aprendizado prático e acessível.
 
----
+# Demo: Mostre funcionando
+>Imagine que um usuário pergunta: "Junior, como estão as vendas da Electrónica Blue 1?"
 
-## Checklist do Pitch
+> agente acessa os arquivos e responde:
 
-- [ ] Duração máxima de 3 minutos
-- [ ] Problema claramente definido
-- [ ] Solução demonstrada na prática
-- [ ] Diferencial explicado
-- [ ] Áudio e vídeo com boa qualidade
+>"Olha só, o lucro total desse produto foi de R$ 316,88, calculado pela diferença entre o preço (R$ 275,40) e o custo (R$ 116,96) multiplicado pelas 2 unidades vendidas. Mas atenção: notei aqui no Inventario.csv que o estoque atual é de apenas 10 unidades. Como está abaixo de 20, eu classifico como Estoque Crítico. Recomendo verificar a reposição logo! Entendeu como chegamos nesse cálculo?"
 
----
+## 4. Diferencial: Por que é inovador
 
-## Link do Vídeo
+>O grande diferencial é a Proatividade Educativa com Segurança. Diferente de BI comum ou chatbots genéricos, o Junior:
 
-> Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
+>Não alucina: Ele é restrito aos dados reais dos CSVs e admite quando não possui uma informação.
 
-[Link do vídeo]
+>Vigilante: Ele emite alertas de estoque baixo mesmo que você não pergunte especificamente sobre isso.
+
+>Metodologia "Anti-Robô": Ele utiliza uma linguagem informal e didática, focada em garantir que o usuário aprenda o conceito por trás do dado, funcionando como uma ferramenta de capacitação e gestão simultaneamente.
